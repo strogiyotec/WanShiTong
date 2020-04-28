@@ -5,5 +5,5 @@
 It containts node abouts programming , concurrency, databases and algorithms
 ## Technologies
 
-All files use [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax. Folder strcutre was generated using [Vimwiki](https://github.com/vimwiki/vimwiki)
+All files use [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax. Folder structure was generated using [Vimwiki](https://github.com/vimwiki/vimwiki)
 
