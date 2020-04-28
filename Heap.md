@@ -11,9 +11,9 @@ Heap
 
 ## Insert example
 
-![Heap insert example](/home/strogiyotec/vimwiki/heap.png)
+![Heap insert example](heap.png)
 
 ## Delete example
 
 
-![Heap delete example](/home/strogiyotec/vimwiki/heap_delete.png)
+![Heap delete example](heap_delete.png)
