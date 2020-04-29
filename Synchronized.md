@@ -68,5 +68,5 @@ Flow
 
 **Explanation**
 
-Let's say A > B (hash code). Then when A enters **swap** then it calls **a.doSwap(b)** and when B enters **swap** it calls **a.doSwap(b)** as well.
+Let's say A < B (hash code). In this case  when A enters **swap** then it calls **a.doSwap(b)** and when B enters **swap** it calls **a.doSwap(b)** as well.
 A calls own **getValue** and doesn't block on sync then it calls **b.getValue** B lock is free that is why it doesn't wait and so on.
