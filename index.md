@@ -9,7 +9,6 @@
 
 * Trees
 * [Heap](Heap) 
-* [VIM](VIM)
 
 ## GO
 
@@ -18,3 +17,9 @@
 ## Java
 
 * [Concurrency](Concurrency)
+* [Memory Model](Memory Model)
+
+
+## VIM
+
+* [VIM](VIM)
