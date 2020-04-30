@@ -6,7 +6,7 @@
 
 ### Phantom read
 	
-	Tx1 sees row in stmt2 that wasn't reported in stmt1 as txt2 deleted it
+    Transaction executes query once and get result, then the same query returns another result. For    example Read commited will see rows commited by another transaction.
 	
 ### Serialization anomaly
 
