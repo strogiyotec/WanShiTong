@@ -1,9 +1,14 @@
 [TimeComplexity](TimeComplexity) - Time comlexity notes
 
-##Postgres
-[ACID](ACID)
-[MVCC](MVCC)
-[Isolations](Isolations)
+## Postgres
+* [Clusters and Tables](Clusters and Tables)
+* [ACID](ACID)
+* [MVCC](MVCC)
+* [Isolations](Isolations)
+* [Vacuum](Vacuum)
+* [WAL](WAL)
+* [Shared Buffers](Shared Buffers)
+
 
 ## Algoritms
 
