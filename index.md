@@ -3,7 +3,7 @@
 ## Postgres
 * [Clusters and Tables](Clusters and Tables)
 * [ACID](ACID)
-* [MVCC](MVCC)
+* [Anomalies](Anomalies)
 * [Isolations](Isolations)
 * [Vacuum](Vacuum)
 * [Shared Buffers](Shared Buffers)

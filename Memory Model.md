@@ -46,7 +46,7 @@ which is impossible if all instruction will be executed from top to bottom
 Changes to fields made by one thread are guaranteed to be visible to other threads by following conditions
 
 * A **writing** thread releases a synch lock and a **reading** thread subsequentally acquires the same synch block
- 	Releasing alock forces a flush of all writes 
+ 	Releasing a lock forces a flush of all writes.
 * ```Thread.start()``` has the same memory effects as a lock release by original thread which calls **start** method of another Thread. 
 	```
 		i = 42;

@@ -24,7 +24,7 @@ When **Help** is initialized then the following steps happen
 2. **help = local_ptr**
 3. **Help::ctor(help)**
 
-Between step one and three another thread could call **get()** and first condition `if(help == null)` will be false because reference already exist but **Constructor** hasn't been called which means that thread could see object in invalid state. 
+Between step **one** and **three** another thread could call **get()** and first condition `if(help == null)` will be false because reference already exist but **Constructor** hasn't been called which means that thread could see object in invalid state. 
 
 ### Solution
 
