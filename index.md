@@ -6,8 +6,9 @@
 * [MVCC](MVCC)
 * [Isolations](Isolations)
 * [Vacuum](Vacuum)
-* [WAL](WAL)
 * [Shared Buffers](Shared Buffers)
+* [WAL](WAL)
+* [Checkpoint](Checkpoint)
 
 
 ## Algoritms
