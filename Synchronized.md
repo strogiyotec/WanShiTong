@@ -49,8 +49,8 @@ class Cell{
 	synchronized long get();
 	synchronized void set(long);
 	synchronized void swap(Cell other){
-		long t = getValue();
-		long v = other.getValue();
+		long t = get();
+		long v = other.get();
 		setValue(v);
 		other.setValue(t);
 	}

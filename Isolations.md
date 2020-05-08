@@ -1,2 +1,0 @@
-## RepeatableRead vs Serializable
-

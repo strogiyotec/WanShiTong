@@ -4,7 +4,6 @@
 * [Clusters and Tables](Clusters and Tables)
 * [ACID](ACID)
 * [Anomalies](Anomalies)
-* [Isolations](Isolations)
 * [Vacuum](Vacuum)
 * [Shared Buffers](Shared Buffers)
 * [WAL](WAL)
@@ -30,3 +29,8 @@
 ## VIM
 
 * [VIM](VIM)
+
+## Blog ideas
+
+* Read only anomaly
+* Close your IO
