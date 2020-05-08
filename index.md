@@ -8,6 +8,7 @@
 * [Shared Buffers](Shared Buffers)
 * [WAL](WAL)
 * [Checkpoint](Checkpoint)
+* [Truncate](Truncate)
 
 
 ## Algoritms
