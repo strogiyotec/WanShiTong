@@ -41,6 +41,7 @@ Repeatable read prevents non-repeatable read and phantom read. However it doesn'
 		negative amounts on customer account are allowed if the total amount on all accounts of that customer is non-negative
 
 ```
+ select * from account where name = 'Bob'; | select * from account where name = 'Bob'; 
  UPDATE accounts SET amount = amount - 600.00 WHERE id = 2  | UPDATE accounts SET amount = amount - 600.00 WHERE id = 3;
  
  id | number | client | amount 
