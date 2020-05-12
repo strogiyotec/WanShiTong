@@ -1,14 +1,14 @@
 [TimeComplexity](TimeComplexity) - Time comlexity notes
 
 ## Postgres
-* [Clusters and Tables](Clusters and Tables)
-* [ACID](ACID)
-* [Anomalies](Anomalies)
-* [Vacuum](Vacuum)
-* [Shared Buffers](Shared Buffers)
-* [WAL](WAL)
-* [Checkpoint](Checkpoint)
-* [Truncate](Truncate)
+* [Clusters and Tables](postgres/Clusters and Tables)
+* [ACID](postgres/ACID)
+* [Anomalies](postgres/Anomalies)
+* [Vacuum](postgres/Vacuum)
+* [Shared Buffers](postgres/Shared Buffers)
+* [WAL](postgres/WAL)
+* [Checkpoint](postgres/Checkpoint)
+* [Truncate](postgres/Truncate)
 
 
 ## Algoritms

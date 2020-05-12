@@ -1,1 +1,1 @@
-[memory/Raid](memory/Raid)
+[Raid](memory/Raid)
