@@ -2,7 +2,7 @@
 
 Lecture - https://www.youtube.com/watch?v=YjFI9CJy6x0
 
-**Definition** - when a collection of records is too large to fit im main memory.  
+**Definition** - when a collection of records is too large to fit in main memory.  
 
 Let's say **user** model has a lot of fields (name,surname,id.email...). If we want to make a sort according to ID , it's inefficient to load whole user because of IO. That is why we need to use **key sort**. 
 
@@ -11,3 +11,7 @@ All keys are stored in separate **index file**. Each key is stored along side wi
 - They key file should be smaller than original file.
 - The index file will be reordered for sorting requiring less IO.  
 - If there multiple fields for sorting then multiple index files are created. 
+
+In order to understand it you have to go through these topics
+
+- [The memory Hierarchy](The memory Hierarchy)
