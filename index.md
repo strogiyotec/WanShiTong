@@ -36,3 +36,4 @@
 
 * Read only anomaly
 * Close your IO
+* Zathura + sc-im
