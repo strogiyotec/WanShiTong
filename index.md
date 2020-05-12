@@ -15,6 +15,7 @@
 
 * Trees
 * [Heap](Heap) 
+* [External sorting](External sorting)
 
 ## GO
 
