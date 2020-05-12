@@ -23,9 +23,9 @@
 
 ## Java
 
-* [Concurrency](Concurrency)
-* [Memory Model](Memory Model)
-* [Double check locking](Double check locking)
+* [Concurrency](Java/Concurrency)
+* [Memory Model](Java/Memory Model)
+* [Double check locking](Java/Double check locking)
 
 
 ## VIM
