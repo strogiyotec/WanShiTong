@@ -1,4 +1,4 @@
-# External sorting 
+Algorithms/# External sorting 
 
 Lecture - https://www.youtube.com/watch?v=YjFI9CJy6x0
 

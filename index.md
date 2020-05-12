@@ -9,17 +9,17 @@
 * [WAL](postgres/WAL)
 * [Checkpoint](postgres/Checkpoint)
 * [Truncate](postgres/Truncate)
-
+* [External sorting](postgres/External sorting)
 
 ## Algoritms
 
 * Trees
-* [Heap](Heap) 
-* [External sorting](External sorting)
+* [Heap](Algorithms/Heap) 
+* [Time complaxity](Algorithms/TimeComplexity)
 
 ## GO
 
-* [Go vim](Go-vim)
+* [Go vim](go/Go-vim)
 
 ## Java
 
@@ -30,7 +30,7 @@
 
 ## VIM
 
-* [VIM](VIM)
+* [VIM](vim/VIM)
 
 ## Blog ideas
 
