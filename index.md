@@ -13,6 +13,9 @@
 * [Snapshots](postgres/Snapshots)
 * [Heap Files](postgres/Heap Files)
 
+## HTTP
+
+
 ## Algoritms
 
 * Trees
@@ -39,3 +42,4 @@
 * Read only anomaly
 * Close your IO
 * Zathura + sc-im
+* Read commited re-evaluation 
