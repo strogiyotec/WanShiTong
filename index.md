@@ -10,6 +10,8 @@
 * [Checkpoint](postgres/Checkpoint)
 * [Truncate](postgres/Truncate)
 * [External sorting](postgres/External sorting)
+* [Snapshots](postgres/Snapshots)
+* [Heap Files](postgres/Heap Files)
 
 ## Algoritms
 

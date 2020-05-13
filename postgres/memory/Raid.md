@@ -1,6 +1,6 @@
 # Raid
 
-Disk contains mechanical elements which have a high failure rates. If disk fails , all the data stored on it is is lost.  
+Disk contains mechanical elements which have a high failure rates. If disk fails , all the data stored on it is lost.  
 
 ### Definitions
 
