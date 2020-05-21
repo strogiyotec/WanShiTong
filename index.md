@@ -18,9 +18,10 @@
 
 ## Algoritms
 
-* Trees
+* [Trees](Algorithms/Trees)
 * [Heap](Algorithms/Heap) 
 * [Time complaxity](Algorithms/TimeComplexity)
+* [AsymptoticGrowth](Algorithms/AsymptoticGrowth)
 
 ## GO
 
@@ -39,7 +40,17 @@
 
 ## Blog ideas
 
-* Read only anomaly
-* Close your IO
-* Zathura + sc-im
-* Read commited re-evaluation 
+- [ ] Read only anomaly
+- [ ] Close your IO
+- [ ] Zathura + sc-im
+- [x] Read commited re-evaluation 
+- [ ] Request layer and db layer
+- [ ] Unit test algorithms  
+		* http://codemanship.co.uk/parlezuml/blog/?postid=1354  
+		* https://github.com/frohoff/jdk8u-jdk/blob/master/test/java/util/HashMap/HashMapCloneLeak.java
+
+
+## Books
+* storyworthy
+* Atomic Habits
+* Everything I want to do is Illegal
