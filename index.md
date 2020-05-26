@@ -12,6 +12,7 @@
 * [External sorting](postgres/External sorting)
 * [Snapshots](postgres/Snapshots)
 * [Heap Files](postgres/Heap Files)
+* [FileSystem](postgres/FileSystem)
 
 ## HTTP
 
