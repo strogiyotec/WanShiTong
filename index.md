@@ -13,6 +13,8 @@
 * [Snapshots](postgres/Snapshots)
 * [Heap Files](postgres/Heap Files)
 * [FileSystem](postgres/FileSystem)
+* [Deffered COnstraint](postgres/Deffered COnstraint)
+* Exclude constrain
 
 ## HTTP
 
