@@ -14,3 +14,5 @@
 
 - [Binary Tree](Trees/Binary Tree)
 - [Avl Tree](Trees/Avl Tree)
+- [RedBlack](Trees/RedBlack)
+
