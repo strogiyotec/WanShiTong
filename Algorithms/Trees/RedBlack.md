@@ -4,4 +4,4 @@ Properties:
 2. The root is black
 3. Every leaf is black
 4. Red node has black children
-5. Every path constaints the same amount of black notes
+5. Every path contains the same amount of black notes

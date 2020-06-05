@@ -12,3 +12,22 @@ It's a template.
  To attach to docker container run `exec`   
  `docker container exec -it name bash`
 
+```mermaid
+graph TD
+Client[Docker client] --> Daemon(Docker daemon)
+ Daemon --> ContainerD(ContainerD)
+ ContainerD--> Runtime1(runc)
+ ContainerD--> Runtime2(runc)
+ ContainerD--> Runtime3(runc)
+```
+- **runc** - creates containers
+- **containerd** - container supervisor
+
+Lifestyle:   
+- Docker client `docker container run`
+- **Docker daemon** receive cli instruction
+- **Containerd** gives **runc** instuction to crate container 
+- **runc** creates container runtime
+
+
+[Image](Image)
