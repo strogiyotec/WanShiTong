@@ -59,5 +59,5 @@
 
 ## Books
 * storyworthy
-* Atomic Habits
+* [Atomic Habits](Books/Atomic Habits)
 * Everything I want to do is Illegal
