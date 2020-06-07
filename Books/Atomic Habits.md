@@ -7,3 +7,7 @@
 - Every action you take is a small step to become the type of person you want to be 
 - The people who don't have their habits handled are often the ones with the least amount of freedom
 - Make a list of what should be done and follow it, in this way you will spend more attention on what you do
+- We tell ourselves "I'm going to write more" but we never say when and where these habbits are going to happen
+- **One of the best way to build new habit is to identify a current habit and then stack your new habit on top**.   
+		When I close my laptop for lunch I will do 10 pushups right next to my desk
+- I will [BEHAVIOR] at [TIME] on [LOCATION]
