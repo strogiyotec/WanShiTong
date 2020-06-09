@@ -11,3 +11,9 @@
 - **One of the best way to build new habit is to identify a current habit and then stack your new habit on top**.   
 		When I close my laptop for lunch I will do 10 pushups right next to my desk
 - I will [BEHAVIOR] at [TIME] on [LOCATION]
+- Whenever possible , avoid mixing the context of one habit with another.   
+		When you start mixing contexts you will start mixing habits and the easier one will win 
+- As an adult dreaming about vacation could be more enjoyable than being on vacation
+- Obe of the most practical ways to eliminate a bad habit is to reduce exposure to the cue that causes it   
+		- If you can't seem to get any work done leave your phone for a few hours   
+		- If you spend too much money on electronics stop reading blogs about it
