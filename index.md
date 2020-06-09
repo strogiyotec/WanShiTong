@@ -18,7 +18,7 @@
 * [FileSystem](postgres/FileSystem)
 * [Deffered COnstraint](postgres/Deffered COnstraint)
 * [Csv](postgres/Csv)
-* Exclude constrain
+* Exclude constraint
 
 ## HTTP
 
