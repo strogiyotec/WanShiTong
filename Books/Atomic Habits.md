@@ -17,3 +17,9 @@
 - Obe of the most practical ways to eliminate a bad habit is to reduce exposure to the cue that causes it   
 		- If you can't seem to get any work done leave your phone for a few hours   
 		- If you spend too much money on electronics stop reading blogs about it
+- Often you follow the habits of your culture without thinking
+- We copy habits from people around us
+- One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behaviour 
+- One person might learn to reduce anxiety my smoking while another by running
+- Habbits are attractive when we associate them with positive feelings (putting headphones while studing will associate it with hard work)
+- Quantity is importrant (group that made hundrends photos made better photos than those who did few original photos)

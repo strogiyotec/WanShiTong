@@ -26,8 +26,9 @@ Client[Docker client] --> Daemon(Docker daemon)
 Lifestyle:   
 - Docker client `docker container run`
 - **Docker daemon** receive cli instruction
-- **Containerd** gives **runc** instuction to crate container 
+- **Containerd** gives **runc** instuction to create container 
 - **runc** creates container runtime
 
 
 [Image](Image)
+[Containers](Containers)
