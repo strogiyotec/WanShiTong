@@ -36,7 +36,7 @@ Do it until z.p color is RED
 2. x is the node which will replace deleted node, if node is not replaced then x is just a black node
 3. If color of deleted node was red then no other actions are required otherwise there are four cases
 
-Cases if deleted node was black repeat until x is not the root and until x.s color is black 
+Cases if deleted node was black repeat until x is not the root and until x.s color is black (x is the left child)
 1. If x's sibling(w) is RED then
     - Make sibling as BLACK
 	- Make x.p BLACK

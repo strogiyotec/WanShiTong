@@ -3,6 +3,8 @@
 ### Non-repeatable read 
 
 	When tx1 reads row twice and gets different results
+
+## Inconsistent reads
 Let's say we have a table `account(id,name,amount)` and two transactions. Here is the state.
 ```
 id    name    amount
@@ -86,6 +88,3 @@ id | number | client | amount
 ```
 However , these data is not valid because second transaction was commited and id=2 should be 910.
 
-
-
-### Read only anomaly in 

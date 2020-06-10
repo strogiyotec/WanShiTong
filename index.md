@@ -61,3 +61,6 @@
 * storyworthy
 * [Atomic Habits](Books/Atomic Habits)
 * Everything I want to do is Illegal
+
+## Personal notes (private ones ignored by git)
+[Notes](Notes)

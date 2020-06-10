@@ -50,9 +50,9 @@ Changes to fields made by one thread are guaranteed to be visible to other threa
 * ```Thread.start()``` has the same memory effects as a lock release by original thread which calls **start** method of another Thread. 
 	```
 		i = 42;
-		new Thread(...).start()
+		new Thread("MyThread").start()
 		b = 20
 	```
-	 New Thread will see value of **i** but no value of **b**
+	 MyThread will see value of **i** but no value of **b**
 * As the thread terminates, all written variables are flushed 
 	For example, if one thread synch on terminating of another thread using **Thread.join** then thread will see all effects made by Joined thread
