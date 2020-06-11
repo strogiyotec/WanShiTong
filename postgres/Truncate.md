@@ -17,3 +17,4 @@
 
 		If transaction that performs truncate was rollbacked , 
 		then Truncate is rollbacked as well.
+- Truncate create new page completely
