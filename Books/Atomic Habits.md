@@ -23,3 +23,7 @@
 - One person might learn to reduce anxiety my smoking while another by running
 - Habbits are attractive when we associate them with positive feelings (putting headphones while studing will associate it with hard work)
 - Quantity is importrant (group that made hundrends photos made better photos than those who did few original photos)
+- We are motivated to do what is easy. The less energy the habit requires the more possible it will occur
+- When we remove the points of friction that sap our time and energy we can achieve more with less effort
+- When you organize a space for its intended purpose you are priming it to make the next action easy. If I change the clothes then workout is more likely to happen
+- Nearly all goal could be expressed using two minutes rule. I need to exercise >I need to be in shape > I need to change into my workout clothes
