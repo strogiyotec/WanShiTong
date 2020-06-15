@@ -35,7 +35,9 @@ Do it until z.p color is RED
 1. Delete node from RBT in the same way as in BinaryTree
 2. x is the node which will replace deleted node, if node is not replaced then x is just a black node
 3. If color of deleted node was red then no other actions are required otherwise there are four cases
-
+Special case when deleted node had two children   
+1. Find successor of node z and assign it to y
+2. If y.p != z then make transplant y with y.right , then y.right = z.right and y.right.p = y
 Cases if deleted node was black repeat until x is not the root and until x.s color is black (x is the left child)
 1. If x's sibling(w) is RED then
     - Make sibling as BLACK

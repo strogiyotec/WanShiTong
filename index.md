@@ -22,7 +22,6 @@
 
 ## HTTP
 
-
 ## Algoritms
 
 * [Trees](Algorithms/Trees)
@@ -40,22 +39,9 @@
 * [Memory Model](Java/Memory Model)
 * [Double check locking](Java/Double check locking)
 
-
 ## VIM
 
 * [VIM](vim/VIM)
-
-## Blog ideas
-
-- [ ] Read only anomaly
-- [ ] Close your IO
-- [ ] Zathura + sc-im
-- [x] Read commited re-evaluation 
-- [ ] Request layer and db layer
-- [ ] Unit test algorithms  
-		* http://codemanship.co.uk/parlezuml/blog/?postid=1354  
-		* https://github.com/frohoff/jdk8u-jdk/blob/master/test/java/util/HashMap/HashMapCloneLeak.java
-
 
 ## Books
 * storyworthy

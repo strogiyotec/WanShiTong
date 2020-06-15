@@ -27,3 +27,5 @@
 - When we remove the points of friction that sap our time and energy we can achieve more with less effort
 - When you organize a space for its intended purpose you are priming it to make the next action easy. If I change the clothes then workout is more likely to happen
 - Nearly all goal could be expressed using two minutes rule. I need to exercise >I need to be in shape > I need to change into my workout clothes
+- At some point success is nearly every field requires you to ignore an immediate reward in favor of a delayed reward
+- 195
