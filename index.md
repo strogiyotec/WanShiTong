@@ -1,52 +1,34 @@
-[TimeComplexity](TimeComplexity) - Time comlexity notes
-
 ## Containers
-* [docker/Overview](docker/Overview)
+ [Overview](docker/Overview)
 
 ## Postgres
-* [Clusters and Tables](postgres/Clusters and Tables)
-* [ACID](postgres/ACID)
-* [Anomalies](postgres/Anomalies)
-* [Vacuum](postgres/Vacuum)
-* [Shared Buffers](postgres/Shared Buffers)
-* [WAL](postgres/WAL)
-* [Checkpoint](postgres/Checkpoint)
-* [Truncate](postgres/Truncate)
-* [External sorting](postgres/External sorting)
-* [Snapshots](postgres/Snapshots)
-* [Heap Files](postgres/Heap Files)
-* [FileSystem](postgres/FileSystem)
-* [Deffered COnstraint](postgres/Deffered COnstraint)
-* [Csv](postgres/Csv)
-* Exclude constraint
+ [Postgres](postgres/Postgres_Notes)
+
+## Cassandra
+ [Cassandra](Cassandra/Cassandra)
 
 ## HTTP
 
 ## Algoritms
-
-* [Trees](Algorithms/Trees)
-* [Heap](Algorithms/Heap) 
-* [Time complaxity](Algorithms/TimeComplexity)
-* [AsymptoticGrowth](Algorithms/AsymptoticGrowth)
+ [Algorithms](Algorithms/Algorithms)
 
 ## GO
-
 * [Go vim](go/Go-vim)
+* [Gvm](https://github.com/moovweb/gvm) version control
 
 ## Java
-
-* [Concurrency](Java/Concurrency)
-* [Memory Model](Java/Memory Model)
-* [Double check locking](Java/Double check locking)
+ [Java](Java/Java)
 
 ## VIM
-
-* [VIM](vim/VIM)
+ [VIM](vim/VIM)
 
 ## Books
-* storyworthy
-* [Atomic Habits](Books/Atomic Habits)
-* Everything I want to do is Illegal
+ [Books/Books](Books/Books)
+
+## Sql practise
+* https://platform.stratascratch.com/#/edu-content-editor?id=9774&python=
+* https://www.wiseowl.co.uk/sql/exercises/standard/subqueries/4228/
+
 
 ## Personal notes (private ones ignored by git)
 [Notes](Notes)
