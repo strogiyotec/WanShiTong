@@ -4,3 +4,4 @@
 * [Heap](Heap) 
 * [Time complaxity](TimeComplexity)
 * [AsymptoticGrowth](AsymptoticGrowth)
+* [Dynamic programming](Dynamic programming)

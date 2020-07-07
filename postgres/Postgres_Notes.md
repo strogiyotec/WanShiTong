@@ -16,3 +16,5 @@
 * Exclude constraint
 * [Advanced SQL](Advanced SQL)
 * [Locks](Locks)
+* [Cheat](Cheat)
+* [Resources](Resources)

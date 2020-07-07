@@ -23,7 +23,7 @@
  [VIM](vim/VIM)
 
 ## Books
- [Books/Books](Books/Books)
+ [Books](Books/Books)
 
 ## Sql practise
 * https://platform.stratascratch.com/#/edu-content-editor?id=9774&python=

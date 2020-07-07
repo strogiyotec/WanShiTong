@@ -7,3 +7,4 @@ VIM keys
 * **gi** - to the left active insert mode position
 * :noh - clear search highlight
 * Add tab to multiple lines: Shift+>
+* gUiw - all characters to upper case in word
