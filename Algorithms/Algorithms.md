@@ -1,7 +1,7 @@
 ## Algorithms notes
-
+* [Competitive programming blog](https://cp-algorithms.com/)
 * [Trees](Trees)
 * [Heap](Heap) 
 * [Time complaxity](TimeComplexity)
-* [AsymptoticGrowth](AsymptoticGrowth)
-* [Dynamic programming](Dynamic programming)
+* [Asymptotic Growth](AsymptoticGrowth)
+* [Dynamic programming](DynamicProgramming)
