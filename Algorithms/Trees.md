@@ -4,7 +4,7 @@
 - **Sibling** - children of the same parent
 - **Edge** - edge connects two nodes. Every node is connected by exactly one incoming edge. Node can have multiple outcoming edges
 - **Level**(depth) - the number of edges from the root to given node.
-- **Height** - The longest patg from root to leaf
+- **Height** - The longest path from root to leaf
 - **Internal node** - node with at least one child
 - **Ancestor** - Parent of the node
 - **Descendant** - Everyone except for the root

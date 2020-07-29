@@ -11,4 +11,8 @@ How to work with it?
    Vaccum will wait for first transaction because AcessShare blocks AccessExclusive
     
 
+Locks are queued. For example
+1. First transaction execute select
+2. Second transaction execute Vacuum full and waits for first transaction
+3. Third transaction is select and it waits for vacuum which waits for first transaction
 

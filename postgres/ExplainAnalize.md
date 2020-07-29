@@ -8,7 +8,7 @@ Explain doesn't do
 
 # Sequence types
 1. Sequential table scan\
-		Scan all rows in table
+   `Scan all rows in table`
 2. Index scan
 3. Index only scan 
 4. Bitmap scan 
@@ -29,7 +29,7 @@ Explain doesn't do
 		4. Complexity - O(n)(create_hash) + O(m)(iterate from second table)
 3. Merge join
 
-		1. If query has order by then
+		1. If query has ORDER BY then
 		2. Sort two result sets ahead of time
 		3. Of they have equal size then just iterate over
 	       first and check element from second in the same position
@@ -47,8 +47,7 @@ Real rows - 10982\
 Need analyze
 
 
-
-## Eplain examples
+## Explain examples
 ```
 EXPLAIN SELECT * FROM tenk1 WHERE unique1 < 100;
 
@@ -60,6 +59,11 @@ EXPLAIN SELECT * FROM tenk1 WHERE unique1 < 100;
          Index Cond: (unique1 < 100)
 ```
 
+> When amount of rows is too big then bitmap is switched to lossy mode when 
+> bitmap remembers all rows
+> but condition is rechecked when fetching actual row
+> ! Note that even for a small number of retrieved rows 
+> RECHECKED is shown in plan anyway
 1. Index scan is used to find rows
 2. Locations are saved in bitmap
 3. Bitmap recheck condition

@@ -17,3 +17,5 @@ Heap
 
 
 ![Heap delete example](heap_delete.png)
+
+[Fibonacci heap](FibonacciHeap)

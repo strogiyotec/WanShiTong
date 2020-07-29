@@ -1,0 +1,4 @@
+- Shipilev - https://shipilev.net/jvm/anatomy-quarks/24-object-alignment/
+- Distributed systems - http://jepsen.io/services#training
+- Concurrency - https://github.com/code-review-checklists/java-concurrency
+- blog https://vmlens.com/blog-2/index_2.html
