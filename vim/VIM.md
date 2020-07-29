@@ -8,3 +8,4 @@ VIM keys
 * :noh - clear search highlight
 * Add tab to multiple lines: Shift+>
 * gUiw - all characters to upper case in word
+
