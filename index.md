@@ -12,12 +12,18 @@
 ## Algoritms
  [Algorithms](Algorithms/Algorithms)
 
+## Architecture
+ [Architucture](Architucture/Architecture)
+
 ## GO
 * [Go vim](go/Go-vim)
 * [Gvm](https://github.com/moovweb/gvm) version control
 
 ## Java
  [Java](Java/Java)
+
+## GIT
+ [Git](Git/Git)
 
 ## VIM
  [VIM](vim/VIM)
