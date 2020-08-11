@@ -5,6 +5,7 @@
 * Constructors can't be declared as synchronized  
 * Synchronized block can be used inside ctor.
 * Synchronized method can call another synchronized method which uses the same lock without freezing
+* When thread acquires lock then it invalidate it's own cache
 * If lock is free then there is no guarantee which thread will hold it (**No fairness guarantee**)
 * **JVM internally obtein lock for Class object during class loading**
 
@@ -70,3 +71,4 @@ Flow
 
 Let's say A < B (hash code). In this case  when A enters **swap** then it calls **a.doSwap(b)** and when B enters **swap** it calls **a.doSwap(b)** as well.
 A calls own **getValue** and doesn't block on sync then it calls **b.getValue** B lock is free that is why it doesn't wait and so on.
+

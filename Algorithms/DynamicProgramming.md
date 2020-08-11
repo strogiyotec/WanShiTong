@@ -3,7 +3,7 @@
 solve each of them independently, store result of each problem\
 
 ## Steps
-1. Characterize the structure of an optimal solution
+1. Characterise the structure of an optimal solution
 2. Recursive define the value of an optimal solution
 3. Compute the value of an optimal solution typically in a bottom up fashion
 4. Construct an optimal solution from computed information
@@ -17,3 +17,9 @@ Split task into sub tasks and keep result.
 
 
 [Greedy Algorithms](Greedy)
+
+## Resources
+ - [MIT lecture](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf)
+
+
+
