@@ -40,6 +40,10 @@ Methods that are less than **-MaxInlineSize** and that are hot will be inlined
 Let's say that method has condition which is always true, then JIT will remove this condition.
 But if once the condition is false then JIT will deoptimize this method.
 
+## JVM Optimization
+
+
+
 
 ## Resources 
 1. https://phauer.com/2017/increase-jvm-development-productivity/
