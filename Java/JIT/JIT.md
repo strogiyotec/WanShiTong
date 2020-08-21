@@ -8,7 +8,7 @@ and then code is compiled using C2(server)
 
 
 ## Hot reload
-1. Add these two JVM options `-Xverify:none -XX:TieredStopAtLevel=1`
+1. Add these two JVM options `-Xverify:none -XX:TieredStopAtLevel=1`(TieredStopAtLevel)
 2. Run app in debug mode, when class is changed press `Ctrl+Shift+F9`
 
 

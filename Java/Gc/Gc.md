@@ -32,7 +32,20 @@ If more than 98% of the total time is spent in garbage collection and less than 
 then an OutOfMemoryError, is thrown
 
 ## G1
-
+Use cases
+1. Huge heap size
+2. Predictable pause time
+G1 is generation garbage collector. G1 devides memory into the regions 2048(Eden,Survivor,Old)
+One particular is called Humongous(when object occupies more than 50% of memory)
+The G1 principle is to free regions with most garbage.For G1 regions don't have to be
+contiguous
+**Algorithm**
+1. Start putting objects into Eden spaces
+2. When all eden spaces are full => Young generation Collector
+3. Unless ParGC, G1 doesn't clean all heap, instead it clears region that most likely have most dead objects
+4. G1 tracks free regions and during GC moves live objects into these regions
+5. G1 tries to use specified pause time in order to determine which regions it can free during this time
+**Don't specify NewRatio because it's dynamic 
 
 
 ## References

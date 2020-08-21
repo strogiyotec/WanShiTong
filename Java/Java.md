@@ -8,4 +8,5 @@
 * [Analytics](Analytics)
 * [Gc](Gc/Gc)
 * [JIT](JIT/JIT)
-* [JVM code cache](JVMCodeCache)
+* [MetaSpace](MetaSpace)
+* [Spring](Spring)
