@@ -33,7 +33,43 @@ Explain doesn't do
 		2. Sort two result sets ahead of time
 		3. Of they have equal size then just iterate over
 	       first and check element from second in the same position
-		   
+
+### HashJoin
+Usually the fastest one. Works only for equality condition on join\
+```
+SELECT *
+FROM people, pets
+WHERE people.id = pets.owner_id
+  AND people.age > 30;
+```
+1. Get all people whose age is greater than 30
+2. Generate hashtable from it
+3. Get all pets and check if pet's owner is in hashtable
+**Downsides**
+1. If M is much smaller than M(amount of people is much slower than amount of pets) - O(MlogN)
+2. If hash table won't feet in memory than skip it
+
+### Merge join
+Used only for equality condition
+
+```
+SELECT *
+FROM people, pets
+WHERE people.id = pets.owner_id
+  AND people.age > 30;
+```
+1. Get all people whose age is greater than 30 
+2. Sort them
+3. Get all pets and sort them by owner_id
+4. Start merging from smallest people_id and smallest owner_id
+5. If smallest people_id is not present in pets then remove people
+6. If smallest owner_id is not present in people then remove pet
+7. Time complexity O(MlogM)+O(NlogN)
+
+When to use instead of hash join?
+1. If tables are already sorted
+2. If hastable is too big because merge join will do merge sort in disk (doesn't take a lot of RAM)
+
 # Examples
 **Needs an index**
 ![need index](needs_an_index.png)
