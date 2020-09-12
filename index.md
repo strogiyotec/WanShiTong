@@ -10,6 +10,9 @@
 ## Nginx
 [Nginx](Nginx)
 
+## Linux
+[Linux](Linux)
+
 ## HTTP
 
 ## Algoritms
@@ -19,13 +22,12 @@
  [Architucture](Architucture/Architecture)
 
 ## GO
-* [Go vim](go/Go-vim)
 * [Gvm](https://github.com/moovweb/gvm) version control
 
 ## Java
  [Java](Java/Java)
 
-## GIT
+## Git
  [Git](Git/Git)
 
 ## VIM
@@ -33,6 +35,9 @@
 
 ## Books
  [Books](Books/Books)
+ 
+## Other
+ [Ascii](Ascii)
 
 ## Sql practise
 * https://platform.stratascratch.com/#/edu-content-editor?id=9774&python=

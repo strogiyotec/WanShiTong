@@ -1,3 +1,4 @@
+:java:concurrency
 ## Concurrent Hash Map
 
 	CHM never locks the whole Map, instead it it divides the map into segments 

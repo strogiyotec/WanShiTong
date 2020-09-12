@@ -4,5 +4,6 @@ Any changes to a Postgres database first of all saved in Write-Ahead log so they
 
 **Checkpoint** process dump dirty pages to disk. It also saves the position in WAL (**REDO POINT**) up to which all changes are sunchronized.
 
-### Example  
-Postgres crashed and then it will restore state by replaying the **WAL** records from **REDO POINT** 
+WAL uses internal cache, when sql is executed, the state is saved is cache and when transaction is commited
+Postgres saves data from WAL cache to file
+

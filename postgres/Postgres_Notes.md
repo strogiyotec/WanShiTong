@@ -18,6 +18,7 @@
 * [Locks](Locks)
 * [Cheat](Cheat)
 * [Resources](Resources)
-* [Userful Links](UserfulLinks)
+* [Useful links](UsefulLinks)
 * [Expain](ExplainAnalize)
 * [Remember me](RememberMe)
+* [Backup](Backup)

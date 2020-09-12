@@ -5,8 +5,11 @@
 4. [Docker Java](https://www.youtube.com/watch?v=d7ajT14ENKk)
 5. [Docker Spring plugin](https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1)
 6. [Spring AOT](https://www.jishuwen.com/d/2dkg/zh-tw)
+7. [Spring boot test](https://rieckpil.de/spring-boot-test-slices-overview-and-usage/)
 
 ## Improve startup
 1. Add these two JVM options `-Xverify:none -XX:TieredStopAtLevel=1`(TieredStopAtLevel)
 2. -Dspring.jmx.enabled=false 
 3. -Dspring.config.location=classpath:/application.properties
+
+

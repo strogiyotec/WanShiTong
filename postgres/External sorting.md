@@ -1,6 +1,6 @@
 Algorithms/# External sorting 
 
-Lecture - https://www.youtube.com/watch?v=YjFI9CJy6x0
+Lecture - 
 
 **Definition** - when a collection of records is too large to fit in main memory.  
 
@@ -15,3 +15,7 @@ All keys are stored in separate **index file**. Each key is stored along side wi
 In order to understand it you have to go through these topics
 
 - [The memory Hierarchy](The memory Hierarchy)
+
+
+## Resources
+1. [Lecture](https://www.youtube.com/watch?v=YjFI9CJy6x0)
