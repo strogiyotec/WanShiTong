@@ -10,6 +10,9 @@
 ## Nginx
 [Nginx](Nginx)
 
+# Awesome
+[Awesome](Awesome)
+
 ## Linux
 [Linux](Linux)
 
@@ -20,10 +23,10 @@
 [Compilers](Compilers/Compilers)
 
 ## Algoritms
- [Algorithms](Algorithms/Algorithms)
+[Algorithms](Algorithms/Algorithms)
 
 ## Architecture
- [Architucture](Architucture/Architecture)
+[Architucture](Architucture/Architecture)
 
 ## GO
 * [Gvm](https://github.com/moovweb/gvm) version control
@@ -39,6 +42,9 @@
 
 ## Books
  [Books](Books/Books)
+ 
+## Study Plan
+ [Study Plan](Study Plan)
  
 ## Other
  [Ascii](Ascii)
