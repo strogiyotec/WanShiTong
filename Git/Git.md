@@ -8,6 +8,9 @@
 	*  Make a visual selection of part of file
 	*  Press **s**
 
+## Repos to check
+1. [Horcrux](https://github.com/jesseduffield/horcrux) - split file into encoded fragments
+
 ### Resources
     * [Build your own git](https://wyag.thb.lt/)
 	* [Git objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
