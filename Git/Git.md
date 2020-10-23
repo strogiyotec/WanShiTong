@@ -10,6 +10,7 @@
 
 ## Repos to check
 1. [Horcrux](https://github.com/jesseduffield/horcrux) - split file into encoded fragments
+2. [buku](https://github.com/jarun/buku)
 
 ### Resources
     * [Build your own git](https://wyag.thb.lt/)

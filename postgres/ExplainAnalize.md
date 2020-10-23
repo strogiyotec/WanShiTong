@@ -5,7 +5,6 @@ Explain doesn't do
 3. Show network problems
 
 
-
 # Sequence types
 1. Sequential table scan\
    `Scan all rows in table`

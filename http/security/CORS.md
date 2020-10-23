@@ -1,4 +1,5 @@
 ## CORS 
+Same origin policy works only for scripts
 Different origins are
 
 1. Domain

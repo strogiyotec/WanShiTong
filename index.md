@@ -1,58 +1,22 @@
-## Containers
- [Overview](docker/Overview)
+## Content
 
-## Postgres
- [Postgres](postgres/Postgres_Notes)
-
-## Cassandra
- [Cassandra](Cassandra/Cassandra)
- 
-## Nginx
-[Nginx](Nginx)
-
-# Awesome
-[Awesome](Awesome)
-
-## Linux
-[Linux](Linux)
-
-## HTTP
-[Http](Http)
-
-## Compilers
-[Compilers](Compilers/Compilers)
-
-## Algoritms
-[Algorithms](Algorithms/Algorithms)
-
-## Architecture
-[Architucture](Architucture/Architecture)
-
-## GO
-* [Gvm](https://github.com/moovweb/gvm) version control
-
-## Java
- [Java](Java/Java)
-
-## Git
- [Git](Git/Git)
-
-## VIM
- [VIM](vim/VIM)
-
-## Books
- [Books](Books/Books)
- 
-## Study Plan
- [Study Plan](Study Plan)
- 
-## Other
- [Ascii](Ascii)
-
-## Sql practise
-* https://platform.stratascratch.com/#/edu-content-editor?id=9774&python=
-* https://www.wiseowl.co.uk/sql/exercises/standard/subqueries/4228/
-
-
-## Personal notes (private ones ignored by git)
-[Notes](Notes)
+2. [Docker](docker/Overview)
+3. [Postgres](postgres/Postgres_Notes)
+4. [Cassandra](Cassandra/Cassandra)
+5. [Nginx](Nginx)
+6. [Awesome wm](Awesome)
+7. [Linux](Linux)
+8. [Http](Http)
+9. [Compilers](Compilers/Compilers)
+10. [Algorithms](Algorithms/Algorithms)
+11. [Architucture](Architucture/Architecture)
+12. [Concurrency](Concurrency/Concurrency)
+13. [Golang notes](Golang/Notes)
+14. [Java](Java/Java)
+15. [Git](Git/Git)
+16. [VIM](vim/VIM)
+17. [Books](Books/Books)
+18. [Study Plan](StudyPlan)
+19. [Ascii](Ascii)
+20. [Sql Practise](Sql/Practise)
+21. [Personal Notes](Notes)
