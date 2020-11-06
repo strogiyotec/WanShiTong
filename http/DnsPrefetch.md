@@ -9,7 +9,7 @@ When not to use
 1. For fonts,css,scripts of another domain - if js script doesn't call other domains then it's not necessary
 
 When to use
-1. Script uses other domains inside
+1. Script uses other domains inside(like advertisment inside frame)
 2. The domain will be required within a minute of document being loaded
 
 # Preconnect

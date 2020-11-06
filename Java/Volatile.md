@@ -18,7 +18,7 @@ nonVol1 = 200
 nonVol2 = 300
 vol = 400
 ```
-When we assign new value to vol then this value is synch with main memory and **values of two non volatile variables will be synch with main memory**
+When we assign new value to vol then this value is synch with main memory and **values of two non volatile variables will be synch with main memory**(which means that thread will flush all 3 variables into the main memory)
 
 ### Reordering
 In example above nonVol 1 and 2 are not alowed to happen after write to **vol**.
@@ -40,7 +40,7 @@ int nonVol2 = this.nonVol2;
 Here when we read **this.vol** we read it from memory and we read both non volatile variables from memory as well
 
 ### Reordering
-A read from volatile variable will happen before any subsequent non volatile reads. It meams that when we read from **this.vol** then all reads belove can't be reordered to happen before volatile read. So this reordering in invalid
+A read from volatile variable will happen before any subsequent non volatile reads. It meams that when we read from **this.vol** then all reads belove can't be reordered to happen before volatile read. So this reordering is invalid
 ```
 int nonVol1 = this.nonVol1;
 int vol = this.vol;

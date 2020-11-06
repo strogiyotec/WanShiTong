@@ -12,5 +12,7 @@
 2. -Dspring.jmx.enabled=false 
 3. -Dspring.config.location=classpath:/application.properties
 
-## Testing
-[Testing](sping/Testing)
+###Pages
+1. [Testing](sping/Testing)
+2. [Security](spring/Security)
+
