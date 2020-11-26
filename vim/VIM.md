@@ -13,3 +13,4 @@ VIM keys
 # Resources
 1. [Learn vim](https://github.com/iggredible/Learn-Vim)
 2. [Browser](https://github.com/brookhong/Surfingkeys)
+3. [Vim visual mode](https://github.com/Jorengarenar/vim-MvVis)

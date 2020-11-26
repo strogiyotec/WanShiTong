@@ -2,6 +2,7 @@
 
 ### Guides
 1. [Merge vs rebase](MergeRebase)
+2. [Advanced Git Notes](AdvancedGit)
 
 ## Vim git
 1. Fugitive stage visual selection
@@ -11,9 +12,11 @@
 	*  Make a visual selection of part of file
 	*  Press **s**
 
+
 ## Repos to check
 1. [Horcrux](https://github.com/jesseduffield/horcrux) - split file into encoded fragments
 2. [buku](https://github.com/jarun/buku)
+3. [Monitoring](https://github.com/apache/skywalking)
 
 ### Resources
     * [Build your own git](https://wyag.thb.lt/)

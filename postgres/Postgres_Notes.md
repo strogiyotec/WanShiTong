@@ -22,3 +22,8 @@
 * [Expain](ExplainAnalize)
 * [Remember me](RememberMe)
 * [Backup](Backup)
+
+## Resources
+1. [Cool cheetsheet](https://pgstats.dev/)
+2. [Psql cheets](https://tomcam.github.io/postgres/)
+3. [Pg rest](https://github.com/prest/prest)
