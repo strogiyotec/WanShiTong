@@ -53,8 +53,6 @@ But if once the condition is false then JIT will deoptimize this method.
 ## JVM Optimization
 
 
-
-
 ## Resources 
 1. https://phauer.com/2017/increase-jvm-development-productivity/
 2. [Talk about JIT](https://www.youtube.com/watch?v=FnDHp3Qya6s)
