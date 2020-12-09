@@ -12,3 +12,4 @@
 4. Concurrency - https://github.com/code-review-checklists/java-concurrency
 5.  [Just a blog](https://www.nurkiewicz.com/search?updated-max=2015-04-05T20:04:00%2B02:00&max-results=50&start=45&by-date=false)
 6. [Just a blog](https://vmlens.com/blog-2/index_2.html)
+7. [Artifactory](https://github.com/dzikoysk/reposilite)
