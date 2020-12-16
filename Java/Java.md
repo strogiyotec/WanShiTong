@@ -6,6 +6,7 @@
 * [Analytics](Analytics)
 * [Gc](Gc/Gc)
 * [JIT](JIT/JIT)
+* [Graal](Graal)
 * [MetaSpace](MetaSpace)
 * [Spring](Spring)
 * [Maven](Maven)

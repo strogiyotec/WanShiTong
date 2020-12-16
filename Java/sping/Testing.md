@@ -69,4 +69,36 @@ abstract class DatabaseIntegrationTest {
 }
 ```
 
+## Spring Boot Controller Test
+```
+//Config controllers
+@WebMvcTest(controllers = ProjectRestService.class)
+//If you wanna import additional config
+@Import({WebConfig.class, SecurityJwtConfig.class})
+//To use BeforeAll on non static methods
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+class ProjectRestServiceTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    //Service mocks for controller
+    @MockBean
+    private UserService userService;
+
+    @Test
+	//If endpoint is secured then mock a user
+    @WithMockUser
+    @DisplayName("Test that coordinates filed is present in response")
+    void testProjectTable() throws Exception {
+        this.mockMvc.perform(MockMvcRequestBuilders.get("/svc/projects/table"))
+            .andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$[0].coordinates").exists());
+    }
+
+}
+
+```
+
 

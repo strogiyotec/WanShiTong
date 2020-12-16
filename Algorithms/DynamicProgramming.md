@@ -23,6 +23,8 @@ Split task into sub tasks and keep result.
  - [MIT lecture](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf)
  - [Greedy explanation](https://web.stanford.edu/class/archive/cs/cs161/cs161.1138/handouts/120%20Guide%20to%20Greedy%20Algorithms.pdf)
  - [Cool blog about Leetcode](https://medium.com/@liyin2015)
+ - [DP](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
+ - [Visualization](https://github.com/algorithm-visualizer/algorithm-visualizer)
 
 
 
