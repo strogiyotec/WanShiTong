@@ -100,5 +100,10 @@ class ProjectRestServiceTest {
 }
 
 ```
+## Junit BeforeAll
+IF you controller has some services we do inject them using @MockBean
+annotation, however if we want to use them in @BeforeAll then it's not 
+possible because @BeforeAll method has to be statis.
+**Solution** - annotate class with `@TestInstance(TestInstance.Lifecycle.PER_CLASS)`
 
-
+> Before all of parent class is executed before all @BeforeAll of child classes
