@@ -191,3 +191,8 @@ WHERE t1.unique1 < 100 AND t1.unique2 = t2.unique2;
 
 1. unique<100 will be scanned and hashed
 2. Then hash join will be used to join hash table with tenk2
+
+
+## References
+1. [Talk about Explain in Russian](https://pgconf.ru/2020/262963)
+2. [How to improve expain analyze , habr](https://habr.com/en/company/tensor/blog/492694/)

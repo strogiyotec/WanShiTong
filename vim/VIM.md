@@ -6,7 +6,7 @@ VIM keys
 * **:%g!/price/d** - delete all lines without **price**
 * **gi** - to the last active insert mode position
 * :noh - clear search highlight
-* Add tab to multiple lines: Shift+>
+* Add tab to multiple lines: **Visual  selection and then press >**
 * gUiw - all characters to upper case in word
 
 

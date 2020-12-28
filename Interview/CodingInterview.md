@@ -1,5 +1,9 @@
 ## Coding interview preparation
 
+### What to learn
+1. TCP\IP
+2. Algorithms
+3. Databases
 
 
 ## Resources

@@ -107,3 +107,49 @@ possible because @BeforeAll method has to be statis.
 **Solution** - annotate class with `@TestInstance(TestInstance.Lifecycle.PER_CLASS)`
 
 > Before all of parent class is executed before all @BeforeAll of child classes
+
+## Mockito
+
+### Inject mocks for service
+
+Let's say service has two other services inside. How to test it ? 
+```
+@ExtendWith(SpringExtension.class)
+class ProjectServiceTest {
+
+	//this one is a service we wanna test
+    @InjectMocks
+    private final ProjectService projectService = new ProjectServiceImpl();
+    //here we have a list of services used by projectService
+    @Mock
+    private UserService userService;
+    @Mock
+    private AccessControlService accessControlService;
+```
+
+### Multiple InjectLevels
+Now let's say **projectService** has a **securityService** as a dependency which has **AccessControlService** as a dependency<br>
+How to inject **AccessControlService** to security and then securityService to projectService? Use **spy**
+
+```
+@ExtendWith(SpringExtension.class)
+class ProjectServiceTest {
+
+    @Mock
+    private AccessControlService accessControlService;
+    @InjectMocks
+    private ProjectSecurityService projectSecurityService = spy(ProjectSecurityServiceImpl.class);
+    @InjectMocks
+    private final ProjectService projectService = new ProjectServiceImpl();
+```
+
+### Mockito reset
+For every new test , Mockito creates new Mocks. The main reason is that if test checks how many times
+the method was executed , it's unpredictable if multiple tests are using the same instance of Mock. 
+If we want to have only one Mock instance then use this
+```
+    // services general for all controllers
+    @MockBean(reset = MockReset.NONE)
+    protected UserService userService;
+```
+**reset=NONE** will reuser the same instance

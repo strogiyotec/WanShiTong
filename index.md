@@ -14,7 +14,6 @@
 14. [Java](Java/Java)
 15. [Git](Git/Git)
 16. [Vim](vim/VIM)
-18. [Study Plan](StudyPlan)
 19. [Ascii](Ascii)
 20. [Sql Practise](Sql/Practise)
 21. [Personal Notes](Notes)
