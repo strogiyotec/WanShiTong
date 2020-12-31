@@ -7,3 +7,6 @@
 * [Asymptotic Growth](AsymptoticGrowth)
 * [Dynamic programming](DynamicProgramming)
 * [Graphs](Graphs/Graphs)
+
+## Resources
+1. Lecturer - Shai Simonson

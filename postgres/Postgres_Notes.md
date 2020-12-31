@@ -1,5 +1,6 @@
 ## Postgres notes
 * [Clusters and Tables](Clusters and Tables)
+* [Connections](Connections)
 * [ACID](ACID)
 * [Anomalies](Anomalies)
 * [Vacuum](Vacuum)

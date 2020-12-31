@@ -56,3 +56,6 @@ Cases if deleted node was black repeat until x is not the root and until x.s col
 	- Make w.right as Black
 	- Left rotate x.p 
 	- Make x point to root
+
+## References
+1.  [Red black trees](https://yuyuan.org/RedBlackTreeTutorial/)
