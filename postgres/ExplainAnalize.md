@@ -189,7 +189,7 @@ WHERE t1.unique1 < 100 AND t1.unique2 = t2.unique2;
                      Index Cond: (unique1 < 100)
 ```
 
-1. unique<100 will be scanned and hashed
+1. Unique<100 will be scanned and hashed
 2. Then hash join will be used to join hash table with tenk2
 
 

@@ -8,7 +8,7 @@ solve each of them independently, store result of each problem\
 3. Compute the value of an optimal solution typically in a bottom up fashion
 4. Construct an optimal solution from computed information
 
-General rule
+### General rule
 > If algorithms can be solved be 2^n time
 > then it could be solved using dynamic programming
 
@@ -18,6 +18,7 @@ Split task into sub tasks and keep result.
 
 1. [Greedy Algorithms](Greedy)
 2. [String similarity algorithms](Strings)
+3. [DFS](DFS)
 
 ## Resources
  - [MIT lecture](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf)

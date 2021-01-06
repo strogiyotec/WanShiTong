@@ -1,28 +1,20 @@
 ## Postgres notes
-* [Clusters and Tables](Clusters and Tables)
-* [Connections](Connections)
 * [ACID](ACID)
 * [Anomalies](Anomalies)
+* [Clusters and Tables](Clusters and Tables)
 * [Vacuum](Vacuum)
 * [Shared Buffers](Shared Buffers)
 * [WAL](WAL)
 * [Checkpoint](Checkpoint)
 * [Truncate](Truncate)
 * [External sorting](External sorting)
-* [Snapshots](Snapshots)
-* [Heap Files](Heap Files)
-* [FileSystem](FileSystem)
-* [Deffered COnstraint](Deffered COnstraint)
-* [Csv](Csv)
-* Exclude constraint
-* [Advanced SQL](Advanced SQL)
 * [Locks](Locks)
 * [Cheat](Cheat)
 * [Resources](Resources)
-* [Useful links](UsefulLinks)
 * [Expain](ExplainAnalize)
-* [Remember me](RememberMe)
 * [Backup](Backup)
+* [Indexes](Indexes)
+
 
 ## Resources
 1. [Cool cheetsheet](https://pgstats.dev/)

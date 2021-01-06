@@ -1,7 +1,3 @@
-Algorithms/# External sorting 
-
-Lecture - 
-
 **Definition** - when a collection of records is too large to fit in main memory.  
 
 Let's say **user** model has a lot of fields (name,surname,id.email...). If we want to make a sort according to ID , it's inefficient to load whole user because of IO. That is why we need to use **key sort**. 
