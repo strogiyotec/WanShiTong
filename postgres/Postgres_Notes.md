@@ -20,3 +20,5 @@
 1. [Cool cheetsheet](https://pgstats.dev/)
 2. [Psql cheets](https://tomcam.github.io/postgres/)
 3. [Pg rest](https://github.com/prest/prest)
+4. [Lectures on how to implement DB](http://courses.cms.caltech.edu/cs122/lectures/)
+5. [High availability](https://github.com/zalando/patroni)

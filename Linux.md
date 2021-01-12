@@ -1,5 +1,6 @@
-[Permissions](linux/Permissions)
-[Caches](linux/Caches)
+1. [Permissions](linux/Permissions)
+2. [Caches](linux/Caches)
+3. [proc](linux/proc)
 
 ## Resources
 1. [Cool blog](https://eli.thegreenplace.net/2017/concurrent-servers-part-2-threads/)

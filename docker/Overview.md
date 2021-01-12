@@ -30,5 +30,6 @@ Lifestyle:
 - **runc** creates container runtime
 
 
-[Image](Image)
-[Containers](Containers)
+1. [Image](Image)
+2. [Containers](Containers)
+3. [Internals](Internals)

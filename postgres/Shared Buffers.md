@@ -1,30 +1,14 @@
 ## Shared buffers
+1. Shared buffers are used as a cache for postgres.
+2. Each buffer page is 8 kb block
+3. When you do insert that data is stored in cache and `is_dirty` field set to true(durty means not in the disk)
 
-**Shared buffers** is simple an array of 8KB blocks. Before postgres checks out the data from the disk it first does a lookup for the pages in the shared buffers.
-
-
-## Buffer eviction
-
-In order to evict page Postgres keeps usage count if page usage is 0 then it's evicted from cache 
-## Example 
-
-```
-CREATE EXTENSION pg_buffercache;
-SELECT bufferid,
-  CASE relforknumber
-    WHEN 0 THEN 'main'
-    WHEN 1 THEN 'fsm'
-    WHEN 2 THEN 'vm'
-  END relfork,
-  relblocknumber,
-  isdirty,
-  usagecount,
-  pinning_backends
-FROM pg_buffercache
-WHERE relfilenode = pg_relation_filenode('cacheme'::regclass);
-```
-
-
-In case of massive select or update only 32 blocks are allocated for caching 
+### Eviction algorithm
+Every buffer contains a metadata like a `usage counter`. Using this counter
+postgres decided to evict the cache(This is the reason why postgres doesn't use OS cache, because of metadata)
+#### Ring Buffer 
+Let's say we read a lot of data from disk. Without Ring Buffers all cache will be evicted
+to give enough space for this huge blob of data. In order to prevent it Ring Buffers
+is used when more than 32 blocks of data is retrieved from DB(Ring Buffer is also a cache)
 
 
