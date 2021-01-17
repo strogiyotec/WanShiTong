@@ -4,6 +4,7 @@
 * [Clusters and Tables](Clusters and Tables)
 * [Vacuum](Vacuum)
 * [Shared Buffers](Shared Buffers)
+* [FSM and VM](Fsm_Vm)
 * [WAL](WAL)
 * [Checkpoint](Checkpoint)
 * [Truncate](Truncate)
@@ -14,6 +15,7 @@
 * [Expain](ExplainAnalize)
 * [Backup](Backup)
 * [Indexes](Indexes)
+* [Snapshot](Snapshot)
 
 
 ## Resources

@@ -1,3 +1,5 @@
+[Auditing](Hibernate/Auditing)
+
 ## Multiple bags exception
 Let's say we have entites
 ```
@@ -35,3 +37,6 @@ If you wanna check if transaction in a method is active use this
 ```
 TransactionSynchronizationManager.isActualTransactionActive()
 ```
+
+
+

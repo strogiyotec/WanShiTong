@@ -11,7 +11,9 @@ id    name    amount
 1     Bob     200 
 2     Bob     800 
 ```
-One transaction executes `update account set amount=amount-100 where id =2` another one does `update account set amount=amount*1.01 where user have total_amount>=1000`.
+One transaction executes `update account set amount=amount-100 where id =2` another one does 
+`update account set amount=amount*1.01 where user have total_amount>=1000`.
+
 In this case second transaction will wait until first transaction will commit. After commit of first and second the state will be
 
 ```
@@ -88,3 +90,8 @@ id | number | client | amount
 ```
 However , these data is not valid because second transaction was commited and id=2 should be 910.
 
+
+## Serialzable
+>Serializable Read-only Deferrable transaction can be used. 
+>In that case, SELECT statements block until they can return a 
+>result that is guaranteed to be valid.

@@ -30,13 +30,11 @@ But constant factor **c** doesn't matter
 **Big Theta** doesn't have time unit (like millis)
 
 
-
-
-
-
 # Big O notation
 **Big O notation** always gives assymptotic upper bound
 
 # Big Omega
 **Big Omega** gives lower bound
 
+1. Polynomial - n^k
+2. Exponential - 2^n
