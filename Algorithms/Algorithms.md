@@ -1,5 +1,5 @@
 ## Algorithms notes
-* [Competitive programming blog](https://cp-algorithms.com/)
+* [Competitive programming blog and Math formulas](https://cp-algorithms.com/)
 * [Amortized complexity](AmortizedComplexity)
 * [Trees](Trees)
 * [Heap](Heap) 
