@@ -25,11 +25,8 @@ A2 → 1 → 3
 A3 → 2 → 4
 A4 → 1 → 3
 ```
-
-## Topological Sort
-**Topological sort** - linear ordering of all its verticles Where
-for each directed edge from node A to node B , node A appears before node B
-![Topological sort](topological.png)
+## Directed Cyclic Graph
+Graph with directed edges and no cycles(All Trees)
 
 ## Spanning Tree
 **Spanning Tree** - is a tree that lives inside a graph
@@ -42,4 +39,7 @@ Tree with the least weight
 ### Sorted
 ![Sorted](sorted.png)
 
-[DFS](DFS)
+## Others
+1. [DFS](DFS)
+2. [Dijkstra](Dijkstra)
+3. [Topological Sort](TopologicalSort)

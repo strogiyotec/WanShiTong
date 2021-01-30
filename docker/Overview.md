@@ -33,3 +33,4 @@ Lifestyle:
 1. [Image](Image)
 2. [Containers](Containers)
 3. [Internals](Internals)
+4. [Volumes](Volumes)

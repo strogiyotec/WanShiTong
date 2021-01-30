@@ -1,4 +1,5 @@
-[Auditing](Hibernate/Auditing)
+1. [Auditing](Hibernate/Auditing)
+2. [States](Hibernate/States)
 
 ## Multiple bags exception
 Let's say we have entites
