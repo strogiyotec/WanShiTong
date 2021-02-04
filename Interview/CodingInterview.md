@@ -6,6 +6,12 @@
 3. Databases
 4. TLS
 
+
+## Leetcode todo
+1. [Amazon](https://leetcode.com/discuss/interview-question/370112/)
+2. [Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+3. [Permutations](https://leetcode.com/problems/permutation-in-string/)
+
 ## Resources
 1. [Dynamic Programming](https://www.youtube.com/watch?v=rytTTvPdmLw)
 2. [Algorithms site](https://opendsa-server.cs.vt.edu/OpenDSA/Books/CS3/html/Proofs.html)

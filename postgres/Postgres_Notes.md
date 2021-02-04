@@ -16,6 +16,7 @@
 * [Backup](Backup)
 * [Indexes](Indexes)
 * [Snapshot](Snapshot)
+* [Connections](Connections)
 
 
 ## Resources

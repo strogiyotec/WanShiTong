@@ -35,6 +35,9 @@ and it should hit all the verticles in the graph
 ## Minimum Spanning Tree
 Tree with the least weight
 
+## Strongly connected graph
+A graph if each vertex is reachable from every other vertex
+
 
 ### Sorted
 ![Sorted](sorted.png)
@@ -43,3 +46,4 @@ Tree with the least weight
 1. [DFS](DFS)
 2. [Dijkstra](Dijkstra)
 3. [Topological Sort](TopologicalSort)
+4. [Tarjan](Tarjan)

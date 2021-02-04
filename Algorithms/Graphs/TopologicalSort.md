@@ -20,3 +20,8 @@ Do DFS
 2. Put it into the cache
 3. Go to adjacent nodes and call dfs
 4. If node is in cache then it has cyclic dependencies
+
+
+## Practise
+1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
+2. [Number of provinces](https://leetcode.com/problems/number-of-provinces/)
