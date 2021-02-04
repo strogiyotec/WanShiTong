@@ -7,6 +7,7 @@
 * [Asymptotic Growth](AsymptoticGrowth)
 * [Dynamic programming](DynamicProgramming)
 * [Graphs](Graphs/Graphs)
+* [Pointers](Pointers)
 
 ## Resources
 1. Lecturer - Shai Simonson
