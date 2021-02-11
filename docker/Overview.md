@@ -1,3 +1,13 @@
+# Index 
+1. [Image](Image)
+2. [Containers](Containers)
+3. [Internals](Internals)
+4. [Volumes](Volumes)
+
+# Resources
+1. [Java docker args](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/)
+
+
 ## Docker
 * Running container uses the kernel	of the host machine
 
@@ -30,7 +40,3 @@ Lifestyle:
 - **runc** creates container runtime
 
 
-1. [Image](Image)
-2. [Containers](Containers)
-3. [Internals](Internals)
-4. [Volumes](Volumes)

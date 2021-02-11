@@ -26,6 +26,7 @@ Split task into sub tasks and keep result.
  - [Cool blog about Leetcode](https://medium.com/@liyin2015)
  - [DP](https://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf)
  - [Visualization](https://github.com/algorithm-visualizer/algorithm-visualizer)
+ - [Leetcode problems to solve](https://leetcode.com/discuss/general-discussion/1050391/must-do-dynamic-programming-problems-category-wise)
 
 
 

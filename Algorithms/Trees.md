@@ -9,7 +9,8 @@
 - **Ancestor** - Parent of the node
 - **Descendant** - Everyone except for the root
 - **Predecessor** - The biggest element in left child (the most right element in left child)
-- **Successor** - The smallest element in right child(the most left element in right child)
+- **Successor** - The smallest element in right child(the most left element in right child) 
+    - successor of node x is a node with smallest key bigger than **x.key**
 
 
 - [Binary Tree](Trees/Binary Tree)
