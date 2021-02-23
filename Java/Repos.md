@@ -3,6 +3,7 @@
 3. [Test rest](https://github.com/rest-assured/rest-assured)
 4. [Validation](https://github.com/making/yavi)
 5. [Validate JPA lazy loading](https://github.com/adgadev/jplusone)
+6. [Distrubuted Jobs as an alternative to @Schedule](https://github.com/jobrunr/jobrunr)
 
 
 ## Blogs
@@ -13,3 +14,4 @@
 5.  [Just a blog](https://www.nurkiewicz.com/search?updated-max=2015-04-05T20:04:00%2B02:00&max-results=50&start=45&by-date=false)
 6. [Just a blog](https://vmlens.com/blog-2/index_2.html)
 7. [Artifactory](https://github.com/dzikoysk/reposilite)
+8. [Usefull JDK tools](https://blog.marcinchwedczuk.pl/useful-jdk-tools-part-1)
