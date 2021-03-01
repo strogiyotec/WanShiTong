@@ -9,8 +9,7 @@
 * [Checkpoint](Checkpoint)
 * [Truncate](Truncate)
 * [External sorting](External sorting)
-* [Locks](Locks)
-* [Cheat](Cheat)
+* [Locks](Locks) * [Cheat](Cheat)
 * [Resources](Resources)
 * [Expain](ExplainAnalize)
 * [Backup](Backup)
@@ -18,10 +17,10 @@
 * [Snapshot](Snapshot)
 * [Connections](Connections)
 
-
 ## Resources
 1. [Cool cheetsheet](https://pgstats.dev/)
 2. [Psql cheets](https://tomcam.github.io/postgres/)
 3. [Pg rest](https://github.com/prest/prest)
 4. [Lectures on how to implement DB](http://courses.cms.caltech.edu/cs122/lectures/)
 5. [High availability](https://github.com/zalando/patroni)
+6. [Why Serial is bad](https://www.2ndquadrant.com/en/blog/postgresql-10-identity-columns/)

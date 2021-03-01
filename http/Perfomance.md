@@ -4,4 +4,6 @@
 
 
 ## Repos
-1. [Load generator](https://github.com/rakyll/hey)
+1. [Load generator for testing](https://github.com/rakyll/hey)
+2. [Perfomance blog](https://web.dev/vitals/#core-web-vitals)
+3. [Jackson perfomance](https://github.com/FasterXML/jackson-docs/wiki/Presentation:-Jackson-Performance)

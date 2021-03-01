@@ -8,6 +8,8 @@
 * [Dynamic programming](DynamicProgramming)
 * [Graphs](Graphs/Graphs)
 * [Pointers](Pointers)
+* [Leetcode](Leetcode)
+
 
 ## Resources
 1. Lecturer - Shai Simonson
