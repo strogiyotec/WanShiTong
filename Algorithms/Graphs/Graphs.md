@@ -25,7 +25,7 @@ A2 → 1 → 3
 A3 → 2 → 4
 A4 → 1 → 3
 ```
-## Directed Cyclic Graph
+## Directed Acyclic Graph(DAG)
 Graph with directed edges and no cycles(All Trees)
 
 ## Spanning Tree
@@ -47,3 +47,7 @@ A graph if each vertex is reachable from every other vertex
 2. [Dijkstra](Dijkstra)
 3. [Topological Sort](TopologicalSort)
 4. [Tarjan](Tarjan)
+
+
+## Readit
+1. [DAG](https://medium.com/basecs/spinning-around-in-cycles-with-directed-acyclic-graphs-a233496d4688)

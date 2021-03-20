@@ -38,6 +38,20 @@ If you wanna check if transaction in a method is active use this
 ```
 TransactionSynchronizationManager.isActualTransactionActive()
 ```
+## Multiple join conditions
+```
+    @JoinColumnOrFormula(
+        column = @JoinColumn(
+            name = "section_id", referencedColumnName = "uidpk", insertable = true, updatable = true
+        )
+    )
+    @JoinColumnOrFormula(
+        formula = @JoinFormula(
+            value = "'SINGLE'",//value
+            referencedColumnName = "type"//column name
+        )
+    )
 
+```
 
 
