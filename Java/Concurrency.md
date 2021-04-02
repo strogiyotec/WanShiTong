@@ -2,7 +2,7 @@
  * [Concurrent hash map](Concurrent hash map)
  * [Synchronized](Synchronized)
  * [Volatile](Volatile)
- * [Utilities](Utilities)
+ * [Java standart package Utilities](Utilities)
  * [Non blocking](NonBlocking)
 
 ## References

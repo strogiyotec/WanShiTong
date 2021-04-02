@@ -6,6 +6,7 @@
 3. Databases
 4. TLS
 5. [Terraform](https://github.com/hashicorp/terraform)
+6. [Distributed Transactions](https://github.com/seata/seata)
 
 
 ## Leetcode todo

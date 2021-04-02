@@ -13,6 +13,7 @@ and then code is compiled using C2(server)
 ## Hot reload
 1. Add these two JVM options `-Xverify:none -XX:TieredStopAtLevel=1`(TieredStopAtLevel)
 2. Run app in debug mode, when class is changed press `Ctrl+Shift+F9`
+3. `-XX:HotswapAgent=external -javaagent:/usr/lib/jvm/hotswap-agent-1.4.1.jar=disablePlugin=Hibernate`
 
 ## Code cache
 1. InitialCodeCacheSize

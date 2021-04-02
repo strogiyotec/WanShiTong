@@ -20,6 +20,14 @@ Explain doesn't do
 
 # Join types
 1. Nested Loop
+```
+for x in table1:
+    for y in table2:
+        if x.field == y.field
+            add row
+```
+Useful when **table1** is significantly smaller than **table2**
+
 2. Hash join
 
 		1. Get first relation and create hash table from it(usually this table is smaller)

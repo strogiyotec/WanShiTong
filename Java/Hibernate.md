@@ -54,4 +54,12 @@ TransactionSynchronizationManager.isActualTransactionActive()
 
 ```
 
-
+## First level cache
+1. Loads entity into the cache
+2. If Entitymanager sends select by id then check first if entity is in the cache otherwise fire the request
+3. Let's say `findByName` is used in this case
+    1. Actual query will be fired 
+    2. Hibernate will get result
+    3. But before making an attached entity it will check if cache already has this entity
+    4. If so then get this entity
+    5. It simulate a repeatable read but it fires sql queries

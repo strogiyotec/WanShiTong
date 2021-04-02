@@ -1,6 +1,7 @@
 ## Postgres notes
 * [ACID](ACID)
 * [Anomalies](Anomalies)
+* [Notify](Notify)
 * [Clusters and Tables](Clusters and Tables)
 * [Vacuum](Vacuum)
 * [Shared Buffers](Shared Buffers)
@@ -24,3 +25,4 @@
 4. [Lectures on how to implement DB](http://courses.cms.caltech.edu/cs122/lectures/)
 5. [High availability](https://github.com/zalando/patroni)
 6. [Why Serial is bad](https://www.2ndquadrant.com/en/blog/postgresql-10-identity-columns/)
+3. [Lectures about DB](https://www.youtube.com/channel/UCDSOFb3LooZVw8K5HWZ9ugA/videos)
