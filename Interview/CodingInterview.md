@@ -7,6 +7,7 @@
 4. TLS
 5. [Terraform](https://github.com/hashicorp/terraform)
 6. [Distributed Transactions](https://github.com/seata/seata)
+7. [Guide from leetcode](https://leetcode.com/discuss/career/216554/from-0-to-clearing-uberappleamazonlinkedingoogle)
 
 
 ## Leetcode todo

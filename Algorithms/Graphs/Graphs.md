@@ -1,3 +1,10 @@
+## Other pages
+1. [DFS](DFS)
+2. [Dijkstra](Dijkstra)
+3. [Topological Sort](TopologicalSort)
+4. [Tarjan](Tarjan)
+
+
 ## Graphs
 graph **G=(V,E)**
 1. V - set of vertices
@@ -42,11 +49,6 @@ A graph if each vertex is reachable from every other vertex
 ### Sorted
 ![Sorted](sorted.png)
 
-## Others
-1. [DFS](DFS)
-2. [Dijkstra](Dijkstra)
-3. [Topological Sort](TopologicalSort)
-4. [Tarjan](Tarjan)
 
 
 ## Readit

@@ -1,9 +1,14 @@
-1. [Java Regex](https://github.com/VerbalExpressions/JavaVerbalExpressions)
-2. [ArchUnit](https://github.com/TNG/ArchUnit)
-3. [Test rest](https://github.com/rest-assured/rest-assured)
-4. [Validation](https://github.com/making/yavi)
-5. [Validate JPA lazy loading](https://github.com/adgadev/jplusone)
-6. [Distrubuted Jobs as an alternative to @Schedule](https://github.com/jobrunr/jobrunr)
+## Spring
+1. [Specification with projection](https://github.com/pramoth/specification-with-projection)
+2. [Spring data entity graph](https://github.com/Cosium/spring-data-jpa-entity-graph)
+
+
+3. [Java Regex](https://github.com/VerbalExpressions/JavaVerbalExpressions)
+4. [ArchUnit](https://github.com/TNG/ArchUnit)
+5. [Test rest](https://github.com/rest-assured/rest-assured)
+6. [Validation](https://github.com/making/yavi)
+7. [Validate JPA lazy loading](https://github.com/adgadev/jplusone)
+8. [Distrubuted Jobs as an alternative to @Schedule](https://github.com/jobrunr/jobrunr)
 
 
 ## Blogs
