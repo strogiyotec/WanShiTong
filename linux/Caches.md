@@ -40,3 +40,5 @@ This will put contFiedld1 into a separate cache line
 
 ## Resources
 1. [About Java](https://alidg.me/blog/2020/5/1/false-sharing)
+2. [Volatile vs Cache coherency](https://stackoverflow.com/questions/65037547/the-volatile-keyword-and-cpu-cache-coherence-protocol)
+3. [Another volatile thing](https://stackoverflow.com/questions/37348390/java-jit-compiler-optimizations-is-jit-consistent-in-respect-to-volatile-varia)
