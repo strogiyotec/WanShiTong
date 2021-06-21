@@ -13,10 +13,8 @@
 
 ## Blogs
 1.  [Out of memory](https://web.archive.org/web/20190201234818/http://java-latte.blogspot.com/2014/03/metaspace-in-java-8.html)
-2. Shipilev - https://shipilev.net/jvm/anatomy-quarks/24-object-alignment/
+2. [Shipilev] - ( https://shipilev.net/jvm/anatomy-quarks/24-object-alignment/ )
 3. Distributed systems - http://jepsen.io/services#training
 4. Concurrency - https://github.com/code-review-checklists/java-concurrency
-5.  [Just a blog](https://www.nurkiewicz.com/search?updated-max=2015-04-05T20:04:00%2B02:00&max-results=50&start=45&by-date=false)
-6. [Just a blog](https://vmlens.com/blog-2/index_2.html)
 7. [Artifactory](https://github.com/dzikoysk/reposilite)
 8. [Usefull JDK tools](https://blog.marcinchwedczuk.pl/useful-jdk-tools-part-1)

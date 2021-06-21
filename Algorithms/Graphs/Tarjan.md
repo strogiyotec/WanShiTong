@@ -5,4 +5,4 @@ Algorithm to find the strong connected component
 
 1. Make a dfs and store current id in an array
 2. When dfs is finished check if currentId is smaller than verticle id if so update current
-3. If previous value of current was smaller than verticle than we found a bridge
+3. If previous value of current was smaller than verticle then we found a bridge

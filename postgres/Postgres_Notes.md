@@ -1,3 +1,7 @@
+## Wiskey notes
+[Wiskey](Wiskey)
+
+
 ## Postgres notes
 * [ACID](ACID)
 * [Anomalies](Anomalies)
@@ -10,13 +14,15 @@
 * [Checkpoint](Checkpoint)
 * [Truncate](Truncate)
 * [External sorting](External sorting)
-* [Locks](Locks) * [Cheat](Cheat)
+* [Locks](Locks) 
+* [Cheat](Cheat)
 * [Resources](Resources)
 * [Expain](ExplainAnalize)
 * [Backup](Backup)
 * [Indexes](Indexes)
 * [Snapshot](Snapshot)
 * [Connections](Connections)
+* [Security](Security)
 
 ## Resources
 1. [Cool cheetsheet](https://pgstats.dev/)

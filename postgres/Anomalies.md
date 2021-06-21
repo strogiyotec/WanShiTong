@@ -1,3 +1,6 @@
+## Resources
+1.  [Read modify write anomaly](https://wiki.postgresql.org/wiki/Hibernate_oplocks)
+
 ## Concurrency control
 
 ### Non-repeatable read 
@@ -22,6 +25,7 @@ id    name    amount
 2     Bob     707 
 ```
 So the second transaction updated amounts even if their sum is less than 1000. Why? Because changes from first transaction can't be lost 
+
 ### Phantom read
 		Transaction executes query once to get set of rows , 
 		then the same query returns another set of rows. 
@@ -42,18 +46,19 @@ Repeatable read prevents non-repeatable read and phantom read. However it doesn'
 
 **Example**:  
 
-		negative amounts on customer account are allowed if the total amount on all accounts of that customer is non-negative
+Negative amounts on customer account are allowed if the total amount on all accounts of that customer is non-negative
 
 ```
- select * from account where name = 'Bob'; | select * from account where name = 'Bob'; 
- UPDATE accounts SET amount = amount - 600.00 WHERE id = 2  | UPDATE accounts SET amount = amount - 600.00 WHERE id = 3;
+(T1) select * from account where name = 'Bob'; |(T2) select * from account where name = 'Bob'; 
+ (T2)UPDATE accounts SET amount = amount - 600.00 WHERE id = 2  |(T2) UPDATE accounts SET amount = amount - 600.00 WHERE id = 3;
  
  id | number | client | amount 
 ----+--------+--------+---------
   2 | 2001   | bob    | -400.00
   3 | 2002   | bob    | 100.00
 ```
-As two transactions update two different rows ,they violated consistency and it's allowed in **Repeatable read**
+As two transactions update two different rows ,they violated consistency and it's allowed 
+in **Repeatable read**
 
 ### Read only transaction anomaly 
 
@@ -81,14 +86,16 @@ UPDATE accounts SET amount = amount - 100.00 WHERE id = 3;
 COMMIT;
 ```
 And then the **third** transaction was opened and after that **First** transaction was commited.
-As **Second** transaction was commited before **third** was opened, then third one see changes if second one.
+As **Second** transaction was commited before **third** was opened, then third one see changes 
+second one.
 ```
 id | number | client | amount
 |   ----+--------+--------+--------
 |     2 | 2001   | bob    | 900.00
 |     3 | 2002   | bob    | 0.00
 ```
-However , these data is not valid because second transaction was commited and id=2 should be 910.
+However , these data is not valid because second transaction was commited and id=2 
+should be 910.
 
 
 ## Serialzable
