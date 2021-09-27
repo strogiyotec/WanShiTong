@@ -9,7 +9,7 @@
 6. [Validation](https://github.com/making/yavi)
 7. [Validate JPA lazy loading](https://github.com/adgadev/jplusone)
 8. [Distrubuted Jobs as an alternative to @Schedule](https://github.com/jobrunr/jobrunr)
-
+9. [Armeria](https://armeria.dev/docs)
 
 ## Blogs
 1.  [Out of memory](https://web.archive.org/web/20190201234818/http://java-latte.blogspot.com/2014/03/metaspace-in-java-8.html)

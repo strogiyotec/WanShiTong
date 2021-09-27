@@ -7,6 +7,7 @@
 * [Anomalies](Anomalies)
 * [Notify](Notify)
 * [Clusters and Tables](Clusters and Tables)
+* [Postgres Time](PostgresTime)
 * [Vacuum](Vacuum)
 * [Shared Buffers](Shared Buffers)
 * [FSM and VM](Fsm_Vm)
@@ -32,3 +33,4 @@
 5. [High availability](https://github.com/zalando/patroni)
 6. [Why Serial is bad](https://www.2ndquadrant.com/en/blog/postgresql-10-identity-columns/)
 3. [Lectures about DB](https://www.youtube.com/channel/UCDSOFb3LooZVw8K5HWZ9ugA/videos)
+4. [Postgres cron](https://github.com/cybertec-postgresql/pg_timetable)

@@ -1,7 +1,7 @@
 ## Content
 
 2. [Docker](docker/Overview)
-3. [Postgres](postgres/Postgres_Notes)
+3. [Databases](postgres/Postgres_Notes)
 4. [Cassandra](Cassandra/Cassandra)
 5. [Nginx](Nginx)
 6. [Awesome wm](Awesome)
@@ -29,3 +29,7 @@
 28. [Blog](Blog)
 29. [Hikes](Hikes/Hikes)
 30. [Music](Music/Music)
+31. [Project Ideas](ProjectIdeas)
+32. [Movies](Movies)
+33. [Research](Research)
+34. [FAQ](FAQ)

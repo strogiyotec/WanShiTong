@@ -45,10 +45,11 @@ contiguous
 3. Unless ParGC, G1 doesn't clean all heap, instead it clears region that most likely have most dead objects
 4. G1 tracks free regions and during GC moves live objects into these regions
 5. G1 tries to use specified pause time in order to determine which regions it can free during this time
-**Don't specify NewRatio because it's dynamic 
+**Don't specify NewRatio because it's dynamic**
 
 
 ## References
 1. [Gc log format](https://blog.gceasy.io/2016/07/07/understanding-g1-gc-log-format/)
-2. https://docs.oracle.com/en/java/javase/13/gctuning/garbage-first-garbage-collector.html#GUID-DA6296DD-9AAB-4955-8B5B-683651936155
-3. https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html
+2. https://www.reddit.com/r/java/comments/pkjj5e/digging_into_java_garbage_collection/
+3. https://docs.oracle.com/en/java/javase/13/gctuning/garbage-first-garbage-collector.html#GUID-DA6296DD-9AAB-4955-8B5B-683651936155
+4. https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html

@@ -18,6 +18,7 @@
 2. [buku](https://github.com/jarun/buku)
 3. [Monitoring](https://github.com/apache/skywalking)
 4. [How it works](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+5. [What are pack files ](https://codewords.recurse.com/issues/three/unpacking-git-packfiles)
 
 ### Resources
     * [Build your own git](https://wyag.thb.lt/)

@@ -100,6 +100,10 @@ class ProjectRestServiceTest {
 }
 
 ```
+
+## Spring boot lazy test
+With `@ComponentScan(lazy=true)` all beans will be mocked and lazily initialized
+
 ## Junit BeforeAll
 IF you controller has some services we do inject them using @MockBean
 annotation, however if we want to use them in @BeforeAll then it's not 

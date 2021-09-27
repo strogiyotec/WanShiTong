@@ -4,6 +4,7 @@
 * [Microservices](Microservices)
 * [RAFT](RAFT)
 * [Distributed systems design course](DesignCourse)
+* [Tls and SSL](Security/TlsSSL)
 
 
 ## Distributed
@@ -11,5 +12,5 @@
 2. [DDD must read](https://blog.arkency.com/application-service-ruby-rails-ddd/)
 4. [Blog must read](https://blog.pragmaticengineer.com/system-design-interview-an-insiders-guide-review/)
 
-
-### DDD resources
+## Resources
+1. [Amazon paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)

@@ -18,4 +18,3 @@ In theory it means a better congestion management ?
 7. https://dropbox.tech/infrastructure/enabling-http2-for-dropbox-web-services-experiences-and-observations
 8. https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/
 9. https://web.dev/preload-critical-assets/
-10. https://www.vzurauskas.com/2019/04/07/two-layer-repositories-in-spring

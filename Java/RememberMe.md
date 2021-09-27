@@ -1,6 +1,6 @@
 # HashMap
 1. Initial capacity - the initial length of array of backets
-2. Load facter how big map is allowed before resizing
+2. Load factor how big map is allowed to be before resizing
 ### Example
 1. Load factor - 0.75
 2. Capacity - 16\

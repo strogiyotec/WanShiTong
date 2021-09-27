@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "2a2b50e979af02f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "011b32b61535edb9",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41e2bdf3c175d904",
+    "type": "split",
+    "children": [
+      {
+        "id": "70f1ec3ee51f66b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "205e0c3cf6b6b399",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e6e2b6427a0bfcc8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1cb8add7749c4977",
+    "type": "split",
+    "children": [
+      {
+        "id": "472f1117db803824",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a932531ae5f0f5b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "011b32b61535edb9",
+  "lastOpenFiles": [
+    "Java/Java.md",
+    "Research.md",
+    "research/Cassandra.md",
+    "research/Assignment2.md",
+    "Firefox.md",
+    "Blog.md",
+    "Nginx.md",
+    "vim/VIM.md",
+    "Golang.md",
+    "Http.md"
+  ]
+}

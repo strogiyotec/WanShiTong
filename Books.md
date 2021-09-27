@@ -14,14 +14,25 @@
 4. Everything is fucked
 5. Kafka on the Shore
 6. 1Q84
-7. The courage to be disliked
-8. Design Data intensive applications
-9. Eleanor Oliphant
-10. How to change your mind
-11. Masters of Doom
-12. The strange library
-13. The stranger
-14. GreenLighs
-15. Can't heart me
-16. Talking to strangers
-17. How bad do you want it?
+7. 1Q84 Book 2
+8. The courage to be disliked
+9. Design Data intensive applications
+10. Eleanor Oliphant
+11. How to change your mind
+12. Masters of Doom
+13. The strange library
+14. The stranger
+15. GreenLighs
+16. Can't heart me
+17. Talking to strangers
+18. How bad do you want it?
+19. The sence of an ending
+20. Klara and the sun
+21. The Obstacle is the way
+22. Why be happy when you can be normal
+23. Man Search of a meaning
+24. The Biggest Bluf in My Life
+25. The art of asking
+26. The Power of Now
+27. FeatherHood
+28. Predictably Irrational

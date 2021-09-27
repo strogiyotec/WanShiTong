@@ -17,11 +17,12 @@
 
 ### Mock interviews
 1. [Channel](https://www.youtube.com/c/ExponentTV/videos)
+2. [How to buld insta](https://www.youtube.com/watch?v=VJpfO6KdyWE)
 
 ### What to learn
 1. [X] TCP\IP
-2. Algorithms
-3. Databases
+2. [X] Algorithms
+3. [X] Databases
 4. [X] TLS
 5. [Terraform](https://github.com/hashicorp/terraform)
 6. [Distributed Transactions](https://github.com/seata/seata)

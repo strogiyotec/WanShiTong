@@ -11,6 +11,7 @@
 6. [Spring AOT](https://www.jishuwen.com/d/2dkg/zh-tw)
 7. [Spring boot test](https://rieckpil.de/spring-boot-test-slices-overview-and-usage/)
 8. [Spring pitfals](https://www.nurkiewicz.com/2011/10/spring-pitfalls-proxying.html)
+10. https://www.vzurauskas.com/2019/04/07/two-layer-repositories-in-spring
 
 ## Improve startup
 1. Add these two JVM options `-Xverify:none -XX:TieredStopAtLevel=1`(TieredStopAtLevel)

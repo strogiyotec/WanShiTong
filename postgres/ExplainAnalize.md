@@ -19,7 +19,7 @@ Explain doesn't do
 		- sort bitmap in order to get sequetial access from disk
 
 # Join types
-1. Nested Loop
+## Nested Loop
 ```
 for x in table1:
     for y in table2:
@@ -28,13 +28,21 @@ for x in table1:
 ```
 Useful when **table1** is significantly smaller than **table2**
 
-2. Hash join
+## Hash join
+```
+select emp join company on e.comp_id = c.id
+companies = select_all_comp;
+map[id,comp] = new HashMap;
+foreach comp in companies{
+    map[comp.id] = comp;
+}
+employees = select_all_emp;
+foreach  e in employees{
+        e.company = map[e.company_id]
+}
+```  
 
-		1. Get first relation and create hash table from it(usually this table is smaller)
-		2. And then do sequential scan in second table
-		3. Get each element from second table and check if this element is present in hash table
-		4. Complexity - O(n)(create_hash) + O(m)(iterate from second table)
-3. Merge join
+## Merge join
 
 		1. If query has ORDER BY then
 		2. Sort two result sets ahead of time
