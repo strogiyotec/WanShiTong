@@ -1,3 +1,13 @@
 {
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "editor:insert-wikilink": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": []
 }

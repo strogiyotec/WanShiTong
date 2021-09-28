@@ -7,8 +7,11 @@
         "id": "011b32b61535edb9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Kubernetes/Pods/ResourceManagement.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": ":",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kubernetes/Pods/ResourceManagement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "011b32b61535edb9",
   "lastOpenFiles": [
-    "Java/Java.md",
-    "Research.md",
-    "research/Cassandra.md",
-    "research/Assignment2.md",
-    "Firefox.md",
-    "Blog.md",
-    "Nginx.md",
-    "vim/VIM.md",
-    "Golang.md",
-    "Http.md"
+    "Kubernetes/Pods/ResourceManagement.md",
+    "Kubernetes/Pods.md",
+    "diary/2021-09-27.md",
+    "Pods/ResourceManagement.md",
+    "Kubernetes.md",
+    "Kubernetes/Components.md",
+    "index.md",
+    "Kubernetes/Kind.md",
+    "Http.md",
+    "Java/Java.md"
   ]
 }

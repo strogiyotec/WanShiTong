@@ -12,7 +12,10 @@
     "Stackoverflow",
     "pseudocode",
     "Postgres",
-    "NoSQL"
+    "NoSQL",
+    "Kubernetes",
+    "PersistentVolumes",
+    "Liveness"
   ],
   "readableLineLength": false
 }
