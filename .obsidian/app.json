@@ -15,7 +15,8 @@
     "NoSQL",
     "Kubernetes",
     "PersistentVolumes",
-    "Liveness"
+    "Liveness",
+    "Rollout"
   ],
   "readableLineLength": false
 }

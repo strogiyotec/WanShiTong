@@ -87,7 +87,3 @@ If It fails then Prob will be restarted, this behavior is configurable using `re
 2. OnFailure - restart only on failure
 3. Never
 
-## Resource management
-Two types
-1. Resource requests - min amount of resources to run app
-2. Resource Limits - Max amount app can consume
