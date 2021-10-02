@@ -1,3 +1,8 @@
+# Problem
+> How to upadte running Pods to different version ? 
+## Manual solution
+1. Stop all pods and then start new ones
+2. Start new ones and delete old ones
 ## Deployments
 Declarative updates for Pods and ReplicaSets
 Use cases

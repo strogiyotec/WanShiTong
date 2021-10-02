@@ -22,7 +22,6 @@
 21. [Personal Notes](Notes)
 22. [Cli](Cli/cli)
 23. [Coding interview preparation](Interview/CodingInterview)
-24. [Japanese](Japanese/Japanese)
 25. [Chinese](Chinese)
 26. [Books](Books)
 27. [OS](OS)
@@ -34,3 +33,4 @@
 33. [Research](Research)
 34. [FAQ](FAQ)
 35. [Kubernetes](Kubernetes)
+36. [Aigerim](Aigerim)

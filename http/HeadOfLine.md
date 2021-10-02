@@ -1,5 +1,6 @@
 ## Http pipelining
-Instead of opening a lot of connections to server browser can use persistance connection. `Keep-Alive:true'.
+Instead of opening a lot of connections to server browser can use persistance connection. `Keep-Alive:true`. 
+
 In this case browser can send multiple requests using the same connection. 
 All of them will be ordered. Not all browsers support it 
 This introduced problem below. If first request is slow then all other requests will wait for it

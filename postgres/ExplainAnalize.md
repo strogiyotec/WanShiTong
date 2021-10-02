@@ -83,7 +83,7 @@ WHERE people.id = pets.owner_id
 
 When to use instead of hash join?
 1. If tables are already sorted
-2. If hastable is too big because merge join will do merge sort in disk (doesn't take a lot of RAM)
+2. If hash table is too big because merge join will do merge sort in disk (doesn't take a lot of RAM)
 
 # Examples
 **Needs an index**
