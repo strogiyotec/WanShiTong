@@ -5,6 +5,9 @@
 5. [ ] Predictably Irrational
 6. [ ] Discrimination and Disparities - From stager
 7. [X] **Greenlights**
+8. [ ] The War of Art
+9. [ ] Sex at Dawn
+10. [ ] Something Deeply Hidden
 
 
 ## What I read in 2021
