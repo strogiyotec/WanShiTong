@@ -8,3 +8,4 @@
 7. [Deployments](Kubernetes/Deployment)
 8. [Ingress](Kubernetes/Ingress)
 9. [Namespaces](Kubernetes/Namespaces)
+10. [Volumes](Kubernetes/Volumes)

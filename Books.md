@@ -2,8 +2,8 @@
 1. [X] How Bad Do You Want It?: Mastering the Psychology of Mind over Muscle
 2. [From blog](https://eli.thegreenplace.net/2020/summary-of-reading-october-december-2020/)
 4. [X] Talking to Strangers
-5. [ ] Predictably Irrational
-6. [ ] Discrimination and Disparities - From stager
+5. [X] Predictably Irrational
+6. [X] Discrimination and Disparities - From stager
 7. [X] **Greenlights**
 8. [ ] The War of Art
 9. [ ] Sex at Dawn
@@ -40,3 +40,4 @@
 27. FeatherHood
 28. Predictably Irrational
 29. The lost connection
+30. Bird By Bird

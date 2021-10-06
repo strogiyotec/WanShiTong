@@ -34,25 +34,68 @@ traffic to selected Pods
 ## How to find Service IP ? 
 1. Environmental variables
 2. Kubernetes DNS server
+For DNS the pod has to call service by it's name
 
-## External access
-In order for external API to reach a cluster you have three options
-### NodePort
+## Pods accessing external resource
+If Pod wants to reach a service outside of the cluster the **ExternalName** service can be used
 ```
 apiVersion: v1
 kind: Service
 metadata:
-    name: kubia-nodeport
+  name: external-service
 spec:
-    type: NodePort
-ports:
-    - port: 80
-    targetPort: 8080
-    nodePort: 30123
-selector:
-app: kubia
+  type: ExternalName                       
+  externalName: someapi.somecompany.com     
+  ports:
+  - port: 80
 ```
-In this case all Nodes will be accesible through port `nodePort`
+Now when Pod tries to reach `external-service.default.svc.cluster.local ` it will be redirected to `somecompany.com`
 
-### Ingress
-TODO: 
+## Pods accessible to outside cluster clients
+### NodePort
+Assign static IP address to service that can be used outside
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubia-nodeport
+spec:
+  type: NodePort            
+  ports:
+  - port: 80                 
+    targetPort: 8080        
+    nodePort: 30123        
+  selector:
+    app: kubia
+```
+```
+❯ kubectl get service kubia-nodeport
+NAME             TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
+kubia-nodeport   NodePort   10.96.34.169   <none>        80:30123/TCP   17s
+```
+Now external users will access pods using service ip and port 30123
+
+
+## Ingress
+When client sends request to Ingress, Ingress will forward it to service
+```
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kubia
+spec:
+  rules:
+  - host: kubia.example.com             
+    http:
+      paths:
+      - path: /                           
+        backend:
+          serviceName: kubia-nodeport     
+          servicePort: 80                 
+```
+Now when external client reaches `kubia.example.com` , Ingress will get choose
+a random Pod based on service and redirect the traffic
+
+### Ingress Controller
+For Ingress to work you have to deploy a controller, Controller is a service
+that implements Ingress specification (nginx,Envoy etc)
