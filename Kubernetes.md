@@ -6,6 +6,6 @@
 5. [Labels and Annotations](Kubernetes/Labels)
 6. [Service](Kubernetes/Service)
 7. [Deployments](Kubernetes/Deployment)
-8. [Ingress](Kubernetes/Ingress)
 9. [Namespaces](Kubernetes/Namespaces)
 10. [Volumes](Kubernetes/Volumes)
+11. [Config](Kubernetes/Config)
