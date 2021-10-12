@@ -1,6 +1,7 @@
-#Don't trak personal notes
+#Don't track personal notes
 Notes*
 Personal/
 diary/
 College/
 taskell/
+.obsidian/*
