@@ -14,3 +14,4 @@
 
 ## Resources
 1. [Amazon paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+2. [Scalable design](https://www.aosabook.org/en/intro2.html#matsudaira-kate)

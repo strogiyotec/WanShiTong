@@ -5,7 +5,7 @@
 ## Postgres notes
 * [ACID](ACID)
 * [Anomalies](Anomalies)
-* [Notify](Notify)
+# * [Notify](Notify)
 * [Clusters and Tables](Clusters and Tables)
 * [Postgres Time](PostgresTime)
 * [Vacuum](Vacuum)
@@ -24,6 +24,7 @@
 * [Snapshot](Snapshot)
 * [Connections](Connections)
 * [Security](Security)
+* [Partition](Partition)
 
 ## Resources
 1. [Cool cheetsheet](https://pgstats.dev/)

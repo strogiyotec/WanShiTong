@@ -41,3 +41,9 @@
 28. Predictably Irrational
 29. The lost connection
 30. Bird By Bird
+31. [X] Slaugtherhouse 5
+32. [X] The madness of crowds
+33. [X] The Last Thing He Told Me
+34. [ ] They Will Drown in Their Mothers’ Tears
+35. Homosapiens
+36. Anxious people

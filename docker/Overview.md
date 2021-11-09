@@ -6,6 +6,7 @@
 
 # Resources
 1. [Java docker args](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/)
+2. [Reduce Image size](https://github.com/docker-slim/docker-slim)
 
 
 ## Docker
