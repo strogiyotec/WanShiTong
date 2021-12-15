@@ -2,6 +2,7 @@
 2. [Caches](linux/Caches)
 3. [proc](linux/proc)
 4. [File System](FileSystem)
+5. [Unix domain socket](UnixDomainSocket)
 
 ## Resources
 1. [Cool blog](https://eli.thegreenplace.net/2017/concurrent-servers-part-2-threads/)

@@ -5,6 +5,8 @@
 * [RAFT](RAFT)
 * [Distributed systems design course](DesignCourse)
 * [Tls and SSL](Security/TlsSSL)
+* [Consistent hashing](ConsistentHashing)
+* [Raft](Raft)
 
 
 ## Distributed
